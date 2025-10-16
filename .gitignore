@@ -8,6 +8,10 @@ cache/
 artifacts/
 typechain-types/
 
+# Compiled contracts (binary files)
+*.bin
+*.abi
+
 # Coverage
 coverage/
 coverage.json
