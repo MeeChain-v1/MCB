@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+
+# Compiled contracts (binary files)
+*.bin
+*.abi
+
+# Coverage
+coverage/
+coverage.json
+.coverage_*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+build/
+
+# Testing
+.nyc_output/
+
+# Misc
+*.tgz
